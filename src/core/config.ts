@@ -17,31 +17,23 @@ export const STATIC_PAGES = [
 export const SOCIAL_MEDIA = [
   {
     ariaLabel: "facebook",
-    href: "https://www.facebook.com/mirumeelabs/",
+    href: "https://web.facebook.com/ShopNopovo/",
     path: require("../images/facebook-icon.svg"),
   },
   {
     ariaLabel: "instagram",
-    href: "https://www.instagram.com/mirumeelabs/",
+    href: "https://www.instagram.com/shopnopovo/",
     path: require("../images/instagram-icon.svg"),
   },
-  {
-    ariaLabel: "twitter",
-    href: "https://twitter.com/getsaleor",
-    path: require("../images/twitter-icon.svg"),
-  },
-  {
-    ariaLabel: "youtube",
-    href: "https://www.youtube.com/channel/UCg_ptb-U75e7BprLCGS4s1g/videos",
-    path: require("../images/youtube-icon.svg"),
-  },
+
+
 ];
 export const META_DEFAULTS = {
   custom: [],
   description: "PWA Storefront",
 
   image: `${window.location.origin}${require("../images/logo.svg")}`,
-  title: "Saleor",
+  title: "NOPOVO",
   type: "website",
   url: window.location.origin,
 };
